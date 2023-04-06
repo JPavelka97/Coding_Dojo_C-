@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div>
+    <div>
+        <h1>Welcome, @Context.Session.GetString("UserName")</h1>
+        <form asp-action="Logout">
+            <button>Logout</button>
+        </form>
+    </div>
+    <hr>
+    <div>
+        <h1>@Context.Session.GetInt32("Number")</h1>
+        <form action="/dashboard/process" method="post">
+            <input type="hidden" value="+1" name="modifier">
+            <button> + 1 </button>
+        </form>
+        <form asp-action="DashboardModify" asp-controllers="Number" method="post">
+            <input type="hidden" value="-1" name="modifier">
+            <button> - 1 </button>
+        </form>
+        <form asp-action="DashboardModify" asp-controllers="Number" method="post">
+            <input type="hidden" value="x2" name="modifier">
+            <button> x 2 </button>
+        </form>
+        <form asp-action="DashboardModify" asp-controllers="Number" method="post">
+            <input type="hidden" value="Random" name="modifier">
+            <button> + Random </button>
+        </form>
+    </div>
+</div>

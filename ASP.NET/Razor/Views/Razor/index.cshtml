@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Razor</title>
+    </head>
+    <body>
+        <h1>Here are some delicious foods!</h1>
+        @{
+            List<string> FoodList = new List<string>() {"Apple Pie", "Pizza", "Cinnamon Rolls", "Lasagna", "Donuts", "Chocolate Cake", "Burritos"};
+            foreach(string food in FoodList)
+            {
+                <p>@food</p>
+            }
+        }
+    </body>
+</html>

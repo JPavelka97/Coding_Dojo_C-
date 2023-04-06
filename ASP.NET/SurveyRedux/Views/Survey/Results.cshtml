@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Results";
+}
+@model Survey
+<div>
+    <h1>Submitted Info</h1>
+    <p>Name: @Model.Name</p>
+    <p>Dojo Location: @Model.Location</p>
+    <p>Favorite Language: @Model.Language</p>
+    @{
+        if(Model.Comment == null){
+            <p>Comment (optional): No comment</p>
+        }
+        else{
+            <p>Comment (optional): @Model.Comment</p>
+        }
+    }
+
+    <a href="/">Go Back</a>
+</div>

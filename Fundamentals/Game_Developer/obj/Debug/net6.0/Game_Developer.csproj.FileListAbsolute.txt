@@ -1,0 +1,15 @@
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\bin\Debug\net6.0\Game_Developer.exe
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\bin\Debug\net6.0\Game_Developer.deps.json
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\bin\Debug\net6.0\Game_Developer.runtimeconfig.json
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\bin\Debug\net6.0\Game_Developer.dll
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\bin\Debug\net6.0\Game_Developer.pdb
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\Game_Developer.csproj.AssemblyReference.cache
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\Game_Developer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\Game_Developer.AssemblyInfoInputs.cache
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\Game_Developer.AssemblyInfo.cs
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\Game_Developer.csproj.CoreCompileInputs.cache
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\Game_Developer.dll
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\refint\Game_Developer.dll
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\Game_Developer.pdb
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\Game_Developer.genruntimeconfig.cache
+C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C#\Fundamentals\Game_Developer\obj\Debug\net6.0\ref\Game_Developer.dll
