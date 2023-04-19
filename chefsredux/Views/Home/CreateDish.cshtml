@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Create Dish"; 
+} 
+@model Dish
+<div class="text-center">
+    <h1 class="display-4">Welcome to Chefs and Dishes</h1>
+    <div class="d-flex gap-3 justify-content-center">
+        <a href="/">Chefs</a>
+        <p> | </p>
+        <a href="/dishes">Dishes</a>
+        <p> | </p>
+        <a href="/chefs/new">Add a Chef</a>
+        <p> | </p>
+        <p>Add a Dish</p>
+    </div>
+    <h1 class="text-center">Add a new Dish!</h1>
+    <div class="d-flex justify-content-center">
+        <form
+            asp-action="CreateDish"
+            asp-controllers="Home"
+            method="post"
+            class="form-control d-flex w-50 justify-content-around pb-3"
+        >
+            <div class="d-flex flex-column gap-1">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" />
+                <span asp-validations-for="Name"></span>
+
+                <label asp-for="Calories"></label>
+                <input asp-for="Calories" />
+                <span asp-validations-for="Calories"></span>
+            </div>
+            <div class="d-flex flex-column gap-1 justify-content-between">
+                <label asp-for="Tastiness"></label>
+                <select asp-for="Tastiness">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <span asp-validations-for="Tastiness"></span>
+
+                <label asp-for="ChefId">Chef Name</label>
+                <select asp-for="ChefId">
+                    @foreach (Chef c in ViewBag.AllChefs) 
+                    {
+                    <option value="@c.ChefId">@c.FirstName @c.LastName</option>
+                    }
+                </select>
+                <input type="submit" value="Create Dish" />
+            </div>
+        </form>
+    </div>
+</div>

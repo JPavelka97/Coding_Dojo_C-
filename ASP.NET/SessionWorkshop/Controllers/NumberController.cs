@@ -42,19 +42,19 @@ public class NumberController : Controller
             Console.WriteLine(modified);
             HttpContext.Session.SetInt32("Number", modified);
         }
-        if (modifier == "-1")
+        else if (modifier == "-1")
         {
             int modified = origin - 1;
             Console.WriteLine(modified);
             HttpContext.Session.SetInt32("Number", modified);
         }
-        if (modifier == "x2")
+        else if (modifier == "x2")
         {
             int modified = origin * 2;
             Console.WriteLine(modified);
             HttpContext.Session.SetInt32("Number", modified);
         }
-        if (modifier == "Random")
+        else if (modifier == "Random")
         {
             Random rand = new Random();
             int modified = origin + (rand.Next(-25, 25));

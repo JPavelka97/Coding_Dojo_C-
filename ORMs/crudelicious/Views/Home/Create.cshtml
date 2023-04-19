@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Create Page"; 
+} 
+@model Dish
+<div>
+    <h1 class="text-center">Add a new Dish!</h1>
+    <div class="d-flex gap-3 justify-content-center">
+        <a href="/">Home</a>
+        <p>|</p>
+        <p>Add a Dish</p>
+    </div>
+    <div class="d-flex justify-content-center">
+        <form
+            asp-action="CreateDish"
+            asp-controllers="Home"
+            method="post"
+            class="form-control d-flex w-50 justify-content-around pb-3"
+        >
+            <div class="d-flex flex-column gap-1">
+                <label asp-for="Chef"></label>
+                <input asp-for="Chef" />
+                <span asp-validation-for="Chef"></span>
+
+                <label asp-for="Name"></label>
+                <input asp-for="Name" />
+                <span asp-validation-for="Name"></span>
+
+                <label asp-for="Calories"></label>
+                <input asp-for="Calories" />
+                <span asp-validation-for="Calories"></span>
+            </div>
+            <div class="d-flex flex-column gap-1 justify-content-between">
+                <label asp-for="Tastiness"></label>
+                <select asp-for="Tastiness">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <span asp-validation-for="Tastiness"></span>
+
+                <label asp-for="Description"></label>
+                <input asp-for="Description" />
+                <span asp-validation-for="Description"></span>
+
+                <input type="submit" value="Add Dish" />
+            </div>
+        </form>
+    </div>
+</div>

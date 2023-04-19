@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Read Wedding"; 
+} 
+@model Wedding
+<div>
+    <div>
+        <a href="/dashboard">Home</a>
+        <a href="/weddings/new">New Wedding</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <div>
+        <h1>@Model.WedderOne and @Model.WedderTwo 's wedding</h1>
+        <p>@Model.Date</p>
+        @foreach(Attendee a in Model.Attendees)
+        {
+            <p>@a.User.FirstName</p>
+        }
+    </div>
+</div>

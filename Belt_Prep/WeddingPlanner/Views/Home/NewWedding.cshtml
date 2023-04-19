@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Add Wedding"; 
+} 
+@model Wedding
+<div>
+    <div>
+        <a href="/dashboard">Home</a>
+        <a href="/weddings/new">New Wedding</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <h1 class="text-center">Add a new wedding!</h1>
+    <div>
+        <form asp-action="CreateWedding" asp-controllers="Home" method="post">
+            <div>
+                <label asp-for="WedderOne">Wedder One: </label>
+                <input asp-for="WedderOne">
+                <span asp-validation-for="WedderOne"></span>
+            </div>
+            <div>
+                <label asp-for="WedderTwo">Wedder Two: </label>
+                <input asp-for="WedderTwo">
+                <span asp-validation-for="WedderTwo"></span>
+            </div>
+            <div>
+                <label asp-for="Date">Date: </label>
+                <input type="date" asp-for="Date">
+                <span asp-validation-for="Date"></span>
+            </div>
+            <div>
+                <label asp-for="Address">Address: </label>
+                <input asp-for="Address">
+                <span asp-validation-for="Address"></span>
+            </div>
+            <input type="submit" value="Add Wedding">
+        </form>
+    </div>
+</div>

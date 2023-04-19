@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+@model List<Wedding>
+<div>
+    <div>
+        <a href="/dashboard">Home</a>
+        <a href="/weddings/new">New Wedding</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <hr>
+    <div class="text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Wedding of...</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Guest Count</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                int? SessionUserId = Context.Session.GetInt32("UserId");
+                foreach(Wedding w in Model)
+                {
+                    <tr>
+                        <td scope="col"><span><a href="/weddings/@w.WeddingId">@w.WedderOne and @w.WedderTwo</a></span</td>
+                        <td scope="col">@w.Date</td>
+                        <td scope="col">@w.Attendees.Count()</td>
+                        @if(SessionUserId == w.CreatorId)
+                        {
+                            <td>
+                                <form asp-action="DestroyWedding" asp-controller="Home" asp-route-id="@w.WeddingId" method="post">
+                                    <input type="submit" value="Delete Event">
+                                </form>
+                            </td>
+                        }
+                        else if(w.Attendees.Any(a => a.UserId == SessionUserId) == true)
+                        {
+                            <td scope="col">
+                                <form asp-action="RemoveRSVP" asp-controller="Home" asp-route-id="@w.WeddingId" method="post">
+                                    <input type="submit" value="UN-RSVP">
+                                </form>
+                            </td>
+                        }
+                        else
+                        {
+                        <td scope="col">
+                            <form asp-action="AddRSVP" asp-controller="Home" asp-route-id="@w.WeddingId" method="post">
+                                <input type="submit" value="Add RSVP">
+                            </form>
+                        </td>
+                        }
+                    </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
