@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoginReg
 build_property.RootNamespace = LoginReg
-build_property.ProjectDir = C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C-\ORMs\LoginReg\
+build_property.ProjectDir = c:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C-\ORMs\LoginReg\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C-\ORMs\LoginReg
+build_property.MSBuildProjectDirectory = c:\Users\jacob\Documents\Coding Dojo Files\Coding_Dojo_C-\ORMs\LoginReg
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/Dashboard.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/Index.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/Privacy.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/_Login.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/_Register.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Home/_Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Shared/Error.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/_ViewImports.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/_ViewStart.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Shared/_Layout.cshtml]
+[c:/Users/jacob/Documents/Coding Dojo Files/Coding_Dojo_C-/ORMs/LoginReg/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-w81lvbtrrz
